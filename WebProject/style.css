@@ -1,0 +1,116 @@
+body {
+    background-image: url('frontbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.SideMenu {
+    width: 15%;
+    padding-left: 5px;
+    margin-left: 15.5%;
+    float: left;
+    font-style: bold;  
+}
+main {
+    background: #cce5ff;
+    margin-left: 33%;
+    background: #D3D3D3;
+    width: 50%;
+    padding-left: 15px;
+    float: center;
+    font-style: bold;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    display: block;
+        }
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    background: #008080;
+    padding: 5px;
+}
+ul li {
+    background: #D3D3D3;
+    margin: 3px;
+    
+}
+ul li:hover {
+    background: #008080;
+    color: white;  
+}
+a {
+    font-size: 20px;
+    font-family: monospace;
+}
+a:link {
+  text-decoration: none;
+    color: #008080;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+    background: #008080;
+    color: whitesmoke;
+}
+#landing p:hover{
+        color: aliceblue;
+        }        
+#landing body {
+  background-image: url('frontbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#landing button {
+    display: block;
+    width:100%;
+    height: 150px;
+    background-color: #008080;
+    margin-top: 10%;
+}
+#landing button:hover {
+    background-color: #D3D3D3;
+}
+#imagelist ul{
+    list-style-type: none;
+    background-color: #D3D3D3;
+}
+#imagelist li{
+    display: inline;
+        }
+#imagelist img{
+    width:19%;
+}
+li span{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: none;
+}
+li:hover span{
+    width: 15%;
+    text-align: right;
+    background: white;
+    color: teal;
+    display:flex;
+}
+@media only screen and (max-width: 750px) {
+  .SideMenu {
+     width: 89%;
+     margin-left: 5%; 
+    float: center;
+  }
+    main {
+    margin-left: 5%;
+    width: 89%;    
+    }
+    #imagelist img{
+    width:19%;
+}
+}
+
